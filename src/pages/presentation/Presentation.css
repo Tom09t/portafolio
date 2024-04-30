@@ -1,0 +1,60 @@
+.container-flex{
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    margin: 110px 93px 200px 93px;
+    
+}
+.subrayado{
+    background: #FD4956;
+}
+.container-flex--description{
+    margin:auto;
+}
+.container-flex--description h2{
+    font-size: 56px;
+}
+.container-flex--description h3{
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+.container-flex--picture{
+    margin: auto;
+}
+
+.container-flex--picture img{
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 580px;
+    
+    
+}
+.container-buttons{
+    display: flex;
+}
+.container-buttons button{
+    width: 50px;
+    height: 50px;
+    margin: 40px 20px 0px 0px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    background-color: #292929;
+    border: none;
+    display: flex; /* Para centrar contenido verticalmente */
+    justify-content: center; /* Para centrar contenido horizontalmente */
+    align-items: center; /* Para centrar contenido verticalmente */
+}
+.container-buttons button:hover{
+    background-color: rgb(61, 61, 61);
+}
+.container-buttons button:active{
+    background-color: rgb(95, 94, 94);
+}
+
+.container-buttons button img{
+    max-width: 80%; /* Asegurar que la imagen no se desborde */
+    max-height: 80%; /* Asegurar que la imagen no se desborde */
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+}

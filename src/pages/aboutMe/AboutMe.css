@@ -1,0 +1,25 @@
+.aboutMe-body{
+    background-color: #292929;
+    color: #fff;
+    
+}
+
+.container-text--aboutMe{
+    margin: 0px 93px 0px 93px;
+    padding: 40px 0px 40px 0px;
+}
+.container-text--aboutMe h2{
+    font-size: 44px;
+}
+.container-text--aboutMe p{
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subrayado-rosa{
+    border-bottom: solid 10px #FD4956;
+}
+.text-pink{
+    color: #FD4956;
+}
