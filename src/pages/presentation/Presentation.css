@@ -28,8 +28,16 @@
     height: 360px;
     object-fit: cover;
     border-radius: 580px;
+    z-index: 0;
     
-    
+}
+.circle-pink{
+    width: 370px;
+    height: 370px;
+    border-radius: 580px;
+    position: absolute;
+    z-index: -1;
+    border: solid 4px #FD4956;
 }
 .container-buttons{
     display: flex;

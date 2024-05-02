@@ -5,6 +5,7 @@
 }
 .header-principal{
     background-color: #292929;
+    width: 100vw;
     color: #fff;
     display:flex;
     font-size: 16px;
@@ -21,11 +22,11 @@
 
 .header-principal ul li{
     margin: 0px 15px 0px 15px;
-    border-bottom: #292929 solid 2px;
+    border-bottom: #292929 solid 3px;
 }
 
 .header-principal ul li:active{
-    border-bottom: #FD4956 solid 2px;
+    border-bottom: #FD4956 solid 3px;
 }
 
 .header-principal ul li:hover{

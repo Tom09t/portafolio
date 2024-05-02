@@ -8,8 +8,9 @@
     margin: 0px 93px 0px 93px;
     padding: 40px 0px 40px 0px;
 }
-.container-text--aboutMe h2{
+.title{
     font-size: 44px;
+    color: #fff;
 }
 .container-text--aboutMe p{
     padding-top: 30px;
